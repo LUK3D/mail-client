@@ -23,7 +23,9 @@ import MailDetail from './components/MailDetail.vue'
 <script lang="ts">
 export default{
   data(){
-    showDetails:false
+    return {
+      showDetails:false
+    }
   }
 }
 
