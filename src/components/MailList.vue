@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="w-full h-full px-10 py-10 text-gray-700 dark:text-gray-200 dark:bg-gray-800">
+    <div class="w-full h-full p-2 md:p-10 text-gray-700 dark:text-gray-200 dark:bg-gray-800">
          <div class="flex mb-6 items-center px-5 py-3 rounded-lg w-full border-2 border-gray-300 dark:border-gray-700">
             <label for="search" class="mr-4">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
