@@ -1,6 +1,4 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import SideMenu from './components/SideMenu.vue'
 import MailList from './components/MailList.vue'
 import MailDetail from './components/MailDetail.vue'
@@ -11,7 +9,7 @@ import MailDetail from './components/MailDetail.vue'
   <div class=" col-span-2 sm:col-span-4 lg:col-span-2 dark:bg-gray-700 bg-white h-full">
     <SideMenu></SideMenu>
   </div>
-  <div class="col-span-8 sm:col-span-6  lg:col-span-4 h-full flex flex-col">
+  <div class="col-span-8 sm:col-span-6  lg:col-span-4 h-full flex flex-col ">
     <MailList></MailList>
   </div>
   <div :class="`${showDetails?'flex' :'hidden'} z-20  md:flex absolute sm:top-0 lg:relative sm:right-0 sm:col-span-12  lg:col-span-4 h-full bg-white`">
@@ -36,5 +34,17 @@ export default{
   font-family: Avenir, Helvetica, Arial, sans-serif;
   padding:0;
   margin:0;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.349);
 }
 </style>
